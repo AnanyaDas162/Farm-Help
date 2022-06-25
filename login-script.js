@@ -4,7 +4,7 @@ function active_1(){
    ele.style.color = "white";
    document.getElementById("btn-2").style.background = "rgba(255, 255, 255, 0.59)";
    document.getElementById("btn-2").style.color = "#630505";
-   document.getElementById("for-expert").style.display = "none";
+   document.getElementById("for-expert").style.visibility = 'hidden';
 }
 
 function active_2(){
@@ -13,5 +13,5 @@ function active_2(){
     ele.style.color = "white";
     document.getElementById("btn-1").style.background = "rgba(255, 255, 255, 0.59)";
     document.getElementById("btn-1").style.color = "#630505";
-    document.getElementById("for-expert").style.display = "block";
+    document.getElementById("for-expert").style.visibility = 'visible'; 
  }
