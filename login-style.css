@@ -45,6 +45,8 @@
 .btn{
     width: 50%;
     height: 46%;
+    btn-margin:2%;
+    margin-right:3px;
     background: rgba(255, 255, 255, 0.59);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -63,7 +65,7 @@
     background-color:rgb(5, 106, 208);
     border-bottom: 2px solid white;
     color: white;
-    transform: translate(0,9px);
+    transform: translate(0,3px);
 }
 
 .btn:active{
@@ -71,8 +73,9 @@
 }
 
 .input-list{
-    height: 76%;
+    height: 80%;
     width: 100%;
+    margin-top: -7%;
     padding: 2%;
     display : flex;
     flex-wrap: no-wrap;
@@ -86,7 +89,9 @@
 
 .input-section{
     display: flex;
-    height: 15%;
+    align-items: center;
+   justify-content:center;
+    height: 12%;
     width: 100%;
     padding: 1%;
 }
@@ -402,4 +407,28 @@
     top: 1%;
     left: 36%;
     animation: anime 6s linear infinite;
+}
+.btn-margin{
+    margin-top: 5%;
+}
+.expert-style{
+
+    display: flex;
+    align-items: center;
+   justify-content:center;
+    height: 12%;
+    width: 100%;
+    padding: 2%;
+    margin-top:4%;
+}
+.input-expert{
+    width:80% ;
+    height:100%;
+    padding: 3%;
+    display : flex;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
